@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube 视频文档集合</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">YouTube 视频文档集合</h1>
+            <p class="subtitle">探索不同主题的深度内容</p>
+        </header>
+
+        <main class="main">
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-icon">📈</div>
+                    <h3 class="topic-title">Warren Buffett 投资心法</h3>
+                    <p class="topic-description">深入了解股神巴菲特的投资理念和策略</p>
+                    <a href="Warren Buffett 投资心法/buffett.html" class="topic-link">
+                        查看文档
+                        <svg class="arrow-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Placeholder for future topics -->
+                <div class="topic-card coming-soon">
+                    <div class="topic-icon">🚀</div>
+                    <h3 class="topic-title">更多主题即将到来</h3>
+                    <p class="topic-description">敬请期待更多精彩的YouTube视频文档</p>
+                    <div class="coming-soon-badge">即将发布</div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 YouTube 视频文档集合. 所有内容仅供学习参考.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add smooth scrolling and interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.topic-card:not(.coming-soon)');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
