@@ -1,17 +1,32 @@
 # YouTube 视频文档集合
 
-这是一个用于展示YouTube视频相关文档的网站，部署在GitHub Pages上。
+这是一个使用Jekyll和Minimal Mistakes主题构建的YouTube视频文档网站，部署在GitHub Pages上。
 
 ## 项目结构
 
 ```
 youtube_web/
-├── index.html              # 主页
-├── style.css              # 样式文件
-├── README.md              # 项目说明
-└── [主题文件夹]/           # 各个主题的文档
-    └── [文档文件]
+├── _config.yml             # Jekyll配置文件
+├── Gemfile                 # Ruby依赖管理
+├── index.html              # 主页（Jekyll格式）
+├── _data/
+│   └── navigation.yml      # 网站导航配置
+├── _pages/                 # 页面文件
+│   ├── about.md
+│   ├── docs.md
+│   ├── videos.md
+│   └── warren-buffett.md
+├── Warren Buffett 投资心法/ # 原始HTML文档（保留）
+└── assets/                 # 静态资源
+    └── images/
 ```
+
+## 技术栈
+
+- **Jekyll** - 静态网站生成器
+- **Minimal Mistakes** - 专业的Jekyll主题
+- **GitHub Pages** - 免费托管服务
+- **Markdown** - 内容编写格式
 
 ## 当前主题
 

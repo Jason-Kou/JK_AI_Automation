@@ -1,0 +1,19 @@
+# main links
+main:
+  - title: "首页"
+    url: /
+  - title: "投资文档"
+    url: /docs/
+  - title: "视频库"
+    url: /videos/
+  - title: "关于"
+    url: /about/
+
+# documentation links
+docs:
+  - title: "投资主题"
+    children:
+      - title: "Warren Buffett 投资心法"
+        url: /docs/warren-buffett/
+      - title: "更多主题"
+        url: /docs/coming-soon/ 
