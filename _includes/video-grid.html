@@ -1,0 +1,14 @@
+<style>
+.video-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.5em;margin:1.5em 0}
+.video-grid a{display:block;text-decoration:none}
+.video-grid img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:4px;display:block}
+.video-grid span{display:block;margin-top:.5em;font-size:.8em;line-height:1.4}
+</style>
+<div class="video-grid">
+  {%- for v in site.data.videos limit: 6 -%}
+  <a href="https://youtu.be/{{ v.id }}" target="_blank" rel="noopener">
+    <img src="https://img.youtube.com/vi/{{ v.id }}/hqdefault.jpg" alt="{{ v.title }}" loading="lazy">
+    <span>{{ v.title }}</span>
+  </a>
+  {%- endfor -%}
+</div>

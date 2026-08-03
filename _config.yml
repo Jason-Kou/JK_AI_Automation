@@ -1,12 +1,12 @@
 # Site
 title: "Jason Kou"
-subtitle: "AI 自动化 · 本地工具 · 内容创作"
+subtitle: "AI automation · local tools · content"
 name: "Jason Kou"
-description: "Jason Kou 的个人主页：AI agent 与自动化实践、macOS 本地工具、YouTube 内容与长文。"
+description: "Jason Kou — AI agents and automation, offline models on Apple Silicon, and the videos and write-ups that come out of it."
 url: "https://jasonkou.com"
 baseurl: ""
 repository: "Jason-Kou/JK_AI_Automation"
-locale: "zh-CN"
+locale: "en-US"
 timezone: "Asia/Shanghai"
 title_separator: "-"
 words_per_minute: 300
@@ -19,11 +19,14 @@ minimal_mistakes_skin: "dark"
 author:
   name: "Jason Kou"
   avatar: # "/assets/images/avatar.jpg"
-  bio: "折腾 AI agent、自动化和本地模型，顺手做成视频和工具。"
+  bio: "AI agents, automation, and local models — turned into open-source tools and videos."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jason-Kou"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jason-kou"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@jason_kou"
@@ -33,6 +36,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jason-Kou"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jason-kou"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@jason_kou"
@@ -87,3 +93,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # 中文版：站点默认英文，/zh/ 下的页面换中文导航
+  - scope:
+      path: "_pages/zh"
+      type: pages
+    values:
+      nav: main_zh
+      home_url: /zh/
+      subtitle: "AI 自动化 · 本地工具 · 内容创作"

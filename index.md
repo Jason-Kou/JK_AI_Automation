@@ -1,42 +1,39 @@
 ---
 layout: splash
 permalink: /
+title: false
 header:
   overlay_color: "#1f2429"
   actions:
-    - label: "看项目"
+    - label: "Projects"
       url: "/projects/"
       class: "btn--primary"
-    - label: "读文章"
+    - label: "Writing"
       url: "/writing/"
-excerpt: "折腾 AI agent、自动化流水线和 Apple Silicon 上的本地模型。把过程做成开源工具和视频。"
+excerpt: "I build AI agents, automation pipelines, and local models on Apple Silicon — then turn the process into open-source tools and videos."
 
 feature_row:
-  - title: "zhiyin · 语音输入"
-    excerpt: "按住热键说话，松开就把文字打进任何 App。14 种语言，100% 离线，MLX 跑在 Apple Silicon 上。"
+  - title: "zhiyin · Voice Input"
+    excerpt: "Hold a hotkey, speak, release — the text lands at your cursor in any app. 14 languages, 100% offline, MLX on Apple Silicon."
     url: "https://github.com/Jason-Kou/zhiyin"
     btn_label: "GitHub"
     btn_class: "btn--primary"
-  - title: "ExpoSnap · 展会名片扫描"
-    excerpt: "iOS 应用。展会上拍一下名片，OCR 自动提取联系人，还能附语音备忘、跟进任务和展位照片。全部本地处理，离线可用。"
+  - title: "ExpoSnap · Card Scanner"
+    excerpt: "iOS app for trade shows. Snap a business card, on-device OCR pulls the contact out — plus voice memos, follow-up tasks, and booth photos. Works offline."
     url: "https://apps.apple.com/us/app/exposnap/id6752795586"
     btn_label: "App Store"
     btn_class: "btn--primary"
-  - title: "AI 自动化流水线"
-    excerpt: "每日资讯扫描、简报生成、视频渲染的全自动 agent 链路。踩过的坑写在文章里。"
+  - title: "AI Automation Pipelines"
+    excerpt: "A self-hosted agent chain: scan the news, dedupe, write the briefing, render the video, ship it. The traps I hit are written up here."
     url: "/writing/"
-    btn_label: "看文章"
+    btn_label: "Read"
     btn_class: "btn--primary"
 ---
 
 {% include feature_row %}
 
-## 最新文章
+## Latest Videos
 
-<div class="entries-list">
-  {% for post in site.posts limit: 3 %}
-    {% include archive-single.html type="list" %}
-  {% endfor %}
-</div>
+{% include video-grid.html %}
 
-[全部文章 →](/writing/){: .btn .btn--light-outline}
+[YouTube channel →](https://www.youtube.com/@jason_kou){: .btn .btn--light-outline}

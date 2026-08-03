@@ -1,0 +1,14 @@
+# 首页「最新视频」列表。新视频加在最上面，取前 6 条显示。
+# id = YouTube 视频 ID，缩略图自动从 img.youtube.com 取，不需要 API key。
+- id: vsIhETPMfx8
+  title: "5 条 AI 落地实践的避坑建议"
+- id: AecJVARhYKw
+  title: "AI 落地案例 14 · Hermes agent 联动 AMZ CLI 实现定时任务"
+- id: Nx5UrL7AkeM
+  title: "AI 落地案例 13 · 识别支票，自动匹配订单"
+- id: nlsWLLeLdZo
+  title: "稠密模型 VS 稀疏模型（MoE 混合专家模型）"
+- id: fzfFNjlDTXg
+  title: "AI 落地案例 12 · Chrome + CDP 抓 Amazon 后台数据"
+- id: QxzgVce5j8M
+  title: "AI 落地案例 11 · Shopify 统一调价"

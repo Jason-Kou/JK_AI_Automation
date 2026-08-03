@@ -1,9 +1,23 @@
 main:
-  - title: "首页"
+  - title: "Home"
     url: /
-  - title: "项目"
+  - title: "Projects"
     url: /projects/
-  - title: "文章"
+  - title: "Writing"
     url: /writing/
-  - title: "关于"
+  - title: "About"
     url: /about/
+  - title: "中文"
+    url: /zh/
+
+main_zh:
+  - title: "首页"
+    url: /zh/
+  - title: "项目"
+    url: /zh/projects/
+  - title: "文章"
+    url: /zh/writing/
+  - title: "关于"
+    url: /zh/about/
+  - title: "EN"
+    url: /
