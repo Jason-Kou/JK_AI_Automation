@@ -17,11 +17,16 @@ toc_label: "项目"
 
 [GitHub →](https://github.com/Jason-Kou/zhiyin){: .btn .btn--primary}
 
-## jk_tts — Apple Silicon 本地 TTS
+## ExpoSnap — 展会名片扫描（iOS）
 
-基于 mlx-audio 和 Qwen3-TTS 的本地语音合成，给视频配音和自动化流程用。
+展会、贸易展上收名片的痛点是回酒店还要手动录一遍。ExpoSnap 拍一下就完事。
 
-[GitHub →](https://github.com/Jason-Kou/jk_tts){: .btn .btn--primary}
+- 自动检测名片边缘，OCR 提取联系人信息，一次点击
+- 可以给每个联系人加**语音备忘、跟进任务、展位照片、文字笔记** —— 记住的是"这个人聊了什么"，不只是名字
+- OCR 和存储全在本机，**无网也能用**
+- 导出到 iPhone 通讯录，或对接 CRM
+
+[了解更多 →](https://exposnap-support.vercel.app){: .btn .btn--primary}
 
 ## AI 自动化流水线
 
