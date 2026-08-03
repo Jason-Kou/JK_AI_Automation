@@ -26,7 +26,8 @@ toc_label: "项目"
 - OCR 和存储全在本机，**无网也能用**
 - 导出到 iPhone 通讯录，或对接 CRM
 
-[了解更多 →](https://exposnap-support.vercel.app){: .btn .btn--primary}
+[App Store →](https://apps.apple.com/us/app/exposnap/id6752795586){: .btn .btn--primary}
+[支持页面](https://exposnap-support.vercel.app){: .btn .btn--inverse}
 
 ## AI 自动化流水线
 
