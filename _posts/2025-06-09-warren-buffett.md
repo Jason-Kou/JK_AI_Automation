@@ -1,21 +1,27 @@
 ---
 permalink: /docs/warren-buffett/
 title: "Warren Buffett 投资心法"
-layout: single
-author_profile: true
-toc: true
-toc_label: "目录"
-toc_icon: "cog"
-sidebar:
-  nav: "docs"
+excerpt: "拆解伯克希尔·哈撒韦背后那套连贯、可复用的投资哲学 —— 从企业选择到资本配置。"
+categories:
+  - 投资
+tags:
+  - 价值投资
+  - 巴菲特
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/warren-buffett-header.jpg
+  overlay_color: "#1f2429"
   actions:
-    - label: "观看相关视频"
+    - label: "观看视频"
       url: "https://youtu.be/5Xo9PaNAHZ8"
       class: "btn--primary"
+    - label: "交互版"
+      url: "/interactive/buffett.html"
 ---
+
+<div style="position:relative;padding-bottom:56.25%;height:0;margin:0 0 2rem;">
+  <iframe src="https://www.youtube.com/embed/5Xo9PaNAHZ8" title="Warren Buffett 投资心法"
+    frameborder="0" allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
 
 ## 沃伦·巴菲特的投资圣经：洞悉伯克希尔·哈撒韦的成功之道
 
