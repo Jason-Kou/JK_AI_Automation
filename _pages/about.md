@@ -16,7 +16,7 @@ Three things take up most of my time:
 ## Contact
 
 - GitHub — [Jason-Kou](https://github.com/Jason-Kou)
-- LinkedIn — [jason-kou](https://www.linkedin.com/in/jason-kou)
+- LinkedIn — [jasonkou](https://www.linkedin.com/in/jasonkou)
 - YouTube — [@jason_kou](https://www.youtube.com/@jason_kou)
 - Email — <!-- TODO: 填上你愿意公开的邮箱 -->
 
